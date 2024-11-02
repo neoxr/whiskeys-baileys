@@ -105,6 +105,7 @@ export type SocketConfig = {
      * (solves the "this message can take a while" issue) can be retried
      * */
     getMessage: (key: proto.IMessageKey) => Promise<proto.IMessage | undefined>;
+    cachedGroupMetadata: (jid: string) => Promise<GroupMetadata | undefined>;
     makeSignalRepository: (auth: SignalAuthState) => SignalRepository;
     /** Socket passthrough */
     socket?: any;

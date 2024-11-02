@@ -173,6 +173,8 @@ export type GroupMetadataParticipants = Pick<GroupMetadata, 'participants'>;
 type MinimalRelayOptions = {
     /** override the message ID with a custom provided string */
     messageId?: string;
+    /** should we use group metadata cache, or fetch afresh from the server; default assumed to be "true" */
+    useCachedGroupMetadata?: boolean
     /** cached group metadata, use to prevent redundant requests to WA & speed up msg sending */
     cachedGroupMetadata?: (jid: string) => Promise<GroupMetadataParticipants | undefined>;
 };
