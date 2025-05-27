@@ -1,6 +1,6 @@
 {
   "name": "@neoxr/baileys",
-  "version": "8.0.0",
+  "version": "8.0.1",
   "description": "A WebSockets library for interacting with WhatsApp Web",
   "keywords": [
     "whatsapp",
@@ -8,7 +8,7 @@
   ],
   "homepage": "https://github.com/whiskeySockets/Baileys/",
   "repository": {
-    "url": "https://github.com/neoxrjs/baileys"
+    "url": "https://github.com/neoxr/baileys"
   },
   "license": "MIT",
   "author": "Meta Platforms, Inc.",
