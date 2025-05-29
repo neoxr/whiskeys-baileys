@@ -94,6 +94,7 @@ export type PollMessageOptions = {
     /** 32 byte message secret to encrypt poll selections */
     messageSecret?: Uint8Array;
     toAnnouncementGroup?: boolean;
+    /** the message you want to quote */
     mentions?: any;
 };
 type SharePhoneNumber = {
