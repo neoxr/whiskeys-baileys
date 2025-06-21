@@ -7,7 +7,7 @@ export declare const DEF_TAG_PREFIX = "TAG:";
 export declare const PHONE_CONNECTION_CB = "CB:Pong";
 export declare const WA_DEFAULT_EPHEMERAL: number;
 export declare const NOISE_MODE = "Noise_XX_25519_AESGCM_SHA256\0\0\0\0";
-export declare const DICT_VERSION = 3;
+export declare const DICT_VERSION = 2;
 export declare const KEY_BUNDLE_TYPE: Buffer<ArrayBuffer>;
 export declare const NOISE_WA_HEADER: Buffer<ArrayBuffer>;
 /** from: https://stackoverflow.com/questions/3809401/what-is-a-good-regular-expression-to-match-a-url */
